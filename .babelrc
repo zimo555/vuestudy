@@ -1,0 +1,26 @@
+{
+    "plugins": [
+       [
+        "transform-runtime",
+        {
+          "polyfill": false
+        }
+       ]
+       
+     ],
+     "presets": [
+       [
+         "env",
+         {
+           "modules": false
+         }
+       ],
+       "stage-0"  
+    ],
+    "ignore": [
+      "./src/lib/js/mui.js",
+      "./src/lib/js/mui.min.js"
+    ]
+
+    
+  }
